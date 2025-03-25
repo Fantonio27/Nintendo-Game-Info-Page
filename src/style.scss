@@ -1,0 +1,9 @@
+@import url(https://db.onlinewebfonts.com/c/e70e707b3caa577ee8616a665b26a9da?family=Museo+Sans+Regular);
+@import url(https://db.onlinewebfonts.com/c/b1de76f2d448dcdf44d092114d6ba04a?family=Museo+Sans+700);
+@import url(https://db.onlinewebfonts.com/c/62c0135163427c652ae397f327f85010?family=Museo+Sans+500);
+
+@import "./assets/components/components.scss";
+
+h1,h2,h3,p,span,div{
+    font-family: "Museo Sans Regular";
+}
