@@ -6,7 +6,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import Footer from "./components/common/Footer.vue";
 import Navbar from "./components/common/Navbar.vue";
 import Sidebar from "./components/common/Sidebar.vue";
@@ -16,5 +16,3 @@ export default {
   components: { Navbar, Sidebar, Footer, GamingInfo},
 };
 </script>
-
-<style></style>
