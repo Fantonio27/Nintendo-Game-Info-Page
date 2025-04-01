@@ -1,0 +1,51 @@
+.top-bar {
+  justify-content: space-between;
+  border-bottom: 1px solid #dadada;
+
+  .left-side {
+    gap: 30px;
+
+    .logo-container {
+      background-color: $primaryColor;
+      height: 52px;
+      width: 105px;
+    }
+
+    .container {
+      gap: 25px;
+
+      > div {
+        gap: 5px;
+
+        .icon {
+          color: $primaryColor;
+          font-size: 18px;
+        }
+
+        p {
+          font-family: "Museo Sans 700";
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .right-side {
+    gap: 15px;
+
+    >div{
+        background-color: #f8f8f8;
+        border-radius: 20px;
+        padding: 0px 12px;
+        height: 32px;
+        gap: 10px;
+
+        .icon{
+            font-size: 18px;
+        }
+        p{
+            font-family: "Museo Sans 700";
+        }
+    }
+  }
+}
