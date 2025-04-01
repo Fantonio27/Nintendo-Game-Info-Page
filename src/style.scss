@@ -6,4 +6,10 @@
 
 h1,h2,h3,p,span,div{
     font-family: "Museo Sans Regular";
+    color: $grayColor;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
 }
